@@ -4,7 +4,7 @@ import json
 import shutil
 import subprocess
 from pathlib import Path
-
+os.system('clear')
 FILE = "ips.txt"
 STATE_DIR = Path("/var/lib/bulkblocker")
 STATE_DIR.mkdir(parents=True, exist_ok=True)
